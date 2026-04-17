@@ -3,6 +3,7 @@ commitlint
 alphazone
 hotsign
 hotsignapp
+huoxiangqu
 
 Pressable
 

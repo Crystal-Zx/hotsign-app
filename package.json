@@ -11,7 +11,7 @@
     "lint": "expo lint",
     "prepare": "husky",
     "lint:prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,html,md}\"",
-    "lint:eslint": "eslint .",
+    "lint:eslint": "eslint --fix",
     "lint:spellcheck": "cspell lint \"src/**/*.{js,jsx,ts,tsx,json,html,md}\"",
     "precommit": "lint-staged",
     "commit": "SKIP_HUSKY=1 git-cz"
