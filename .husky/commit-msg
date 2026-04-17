@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "🔍 Running commitlint via husky commit-msg..."
+
+npx commitlint --edit "$1"

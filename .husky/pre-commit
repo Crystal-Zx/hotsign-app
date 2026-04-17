@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+# 跳过已手动执行过 lint 的情况
+if [ -n "$SKIP_HUSKY" ]; then
+  echo "🚫 Skipping husky pre-commit (lint already completed)"
+  exit 0
+fi
+
+# 对其他提交方式正常执行 lint
+echo "🔍 Running lint-staged via husky pre-commit..."
+
+npm run precommit
